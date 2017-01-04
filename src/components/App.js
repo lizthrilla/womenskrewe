@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
+import Recruit from './recruit'
+
 class App extends Component {
 
   render () {
-    return <div className='root'>
+    return <div className='.layout'>
       <div className='header'>
         <h1>Tampa Bay Women's Krewe RFC </h1>
       </div>
@@ -16,11 +18,7 @@ class App extends Component {
           <li>Sponsors</li>
         </ul>
       </nav>
-      <div className='recruit'>
-        <h2>Now Recruiting!</h2>
-        <p> Practices are Tuesday and Thursday 7:30 - 9:30 PM at Cuscaden Park in Ybor. </p>
-        <div className='practice' />
-      </div>
+      <Recruit />
       <div className='contact' />
       <div className='calendar' />
       <div className='scores' />
