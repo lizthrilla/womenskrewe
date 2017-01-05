@@ -7,7 +7,7 @@ class App extends Component {
   render () {
     return <div className='.layout'>
       <div className='header'>
-        <h1>Tampa Bay Women's Krewe RFC </h1>
+        <h1>Tampa Bay Women's Krewe</h1>
       </div>
       <nav>
         <ul>
