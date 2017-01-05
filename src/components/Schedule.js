@@ -16,3 +16,5 @@ class Schedule extends Component {
     </div>
   }
 }
+
+export default Schedule
