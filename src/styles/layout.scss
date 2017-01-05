@@ -1,0 +1,56 @@
+body,
+#root,
+.layout {
+  min-height: 100vh;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  max-width: 760px;
+  min-width: 320px;
+  width: 100vw;
+  margin: 1em auto;
+  padding: 1em;
+  flex: 1;
+}
+
+nav,
+.on,
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  background-color: firebrick;
+
+  li {
+    padding: 1em;
+    justify-content: space-between;
+    align-content: space-between;
+    font-family: 'Trade Winds', cursive;
+
+    &:hover {
+      background-color: indianred;
+    }
+  }
+}
+
+.back {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./ballsBW.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  footer {
+    text-align: center;
+  }
+}
