@@ -19,7 +19,7 @@ class Layout extends Component {
               <Link to='/'>Home</Link>
             </li>
             <li>Team</li>
-            <li>Schedule</li>
+            <li><Link to='/Schedule'>Schedule</Link></li>
             <li>
               <Link to='/Contact'>Contact</Link>
             </li>
