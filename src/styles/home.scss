@@ -35,21 +35,23 @@ h2 {
   }
 }
 
-// .social {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   padding: 0;
-//
-//   ul {
-//     background-color: transparent;
-//     font-size: 50px;
-//     flex-direction: row;
-//
-//     li {
-//       color: firebrick;
-//       text-shadow: 1px 1px 1px white;
-//       text-align: center;
-//     }
-//   }
-// }
+button {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  background-color: firebrick;
+  box-shadow: 1px 1px 1px white;
+  margin: 1em;
+
+  &:hover {
+    background-color: gold;
+    box-shadow: 2px 2px 2px black;
+  }
+
+  i {
+    margin-top: 2px;
+  }
+}

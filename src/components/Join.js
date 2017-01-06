@@ -4,7 +4,7 @@ class Join extends Component {
 
   render () {
     return <div>
-      <h2>Join the Krewe!</h2>
+      <h2 className='joinHead'>Join the Krewe!</h2>
       <div className='join'>
         <p>In order to play, all players must be CIPPed and pay club dues.
       </p>
@@ -18,7 +18,13 @@ class Join extends Component {
           <a href='https://webpoint.usarugby.org/wp/Memberships/Join.wp'> CIPP </a>
         </button>
         <button className='payPal'>
-          <a href='https://www.paypal.me/tampabaywomensrugby'> <i className='fa fa-cc-paypal' aria-hidden='true' /></a>
+          <a href='https://www.paypal.me/tampabaywomensrugby'>
+            <i className='fa fa-paypal' aria-hidden='true' /></a>
+        </button>
+        <button>
+          <a href='mailto:tampabaywomenskrewe.gmail.com'>
+            <i className='fa fa-envelope-o' aria-hidden='true' />
+          </a>
         </button>
       </div>
     </div>

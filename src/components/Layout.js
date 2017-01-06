@@ -22,14 +22,7 @@ class Layout extends Component {
               <Link to='/Contact'>Contact</Link>
             </li>
             <li><Link to='/Join'>Join</Link></li>
-            <li>Sponsors</li>
-            <li><a href='https://www.facebook.com/Tampabaywomenskrewerfc/?fref=ts'><i className='fa fa-facebook-official' />
-            </a>
-            </li>
-            <li>
-              <a href='https://www.instagram.com/tampabaywomenskrewe/'><i className='fa fa-instagram' aria-hidden='true' />
-              </a>
-            </li>
+            <li><Link to='/Sponsors'>Sponsors</Link></li>
           </ul>
         </nav>
 

@@ -1,3 +1,9 @@
+.joinHead {
+  font-family: 'Open Sans', san-serif;
+  padding: 0.5em;
+  text-shadow: 1px 1px 1px black;
+}
+
 .join {
   display: flex;
   flex-direction: column;
@@ -25,12 +31,12 @@
     margin: 1em;
 
     &:hover {
-      background-color: indianred;
+      background-color: gold;
       box-shadow: 2px 2px 2px black;
     }
 
     i {
-      font-size: 60px;
+      font-size: 50px;
       text-align: center;
       padding-bottom: 5px;
     }

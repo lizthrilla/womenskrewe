@@ -1,0 +1,25 @@
+.sponsors {
+  display: flex;
+  flex-direction: column;
+
+  .macdintons {
+    background-image: url('../sponsors/macdintons.png');
+    height: 100px;
+    width: 100px;
+  }
+
+  .theRest {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    li {
+      height: 100px;
+      width: 100px;
+    }
+
+    .centralCoffee {
+      background-image: url('../sponsors/centralCoffee.png');
+    }
+  }
+}
