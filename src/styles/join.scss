@@ -27,12 +27,12 @@
     border: none;
     font-weight: bold;
     background-color: firebrick;
-    box-shadow: 1px 1px 1px white;
+    box-shadow: 1px 1px 1px black;
     margin: 1em;
 
     &:hover {
       background-color: gold;
-      box-shadow: 2px 2px 2px black;
+      box-shadow: 1px 1px 1px white;
     }
 
     i {

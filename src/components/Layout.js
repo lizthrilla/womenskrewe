@@ -9,7 +9,7 @@ class Layout extends Component {
 
   render () {
     return <div className='.layout'>
-      <div className='back'>
+      <div className='head'>
         <nav className='on off'>
           <ul>
             {/* <li className='toggle'>☰</li> */}
