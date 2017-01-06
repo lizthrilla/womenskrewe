@@ -14,11 +14,11 @@ class Join extends Component {
         <p>Dues can be paid in cash, by check or money order made out to Tampa Bay Women's Krewe RFC, or via PayPal.</p>
       </div>
       <div className='buttons'>
-        <button name='getCipped'>
-          <a href='https://webpoint.usarugby.org/wp/Memberships/Join.wp'> GET CIPPED </a>
+        <button className='getCipped'>
+          <a href='https://webpoint.usarugby.org/wp/Memberships/Join.wp'> CIPP </a>
         </button>
-        <button name='payPal'>
-          <a href='https://www.paypal.me/tampabaywomensrugby'> PAY DUES</a>
+        <button className='payPal'>
+          <a href='https://www.paypal.me/tampabaywomensrugby'> <i className='fa fa-cc-paypal' aria-hidden='true' /></a>
         </button>
       </div>
     </div>
