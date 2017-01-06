@@ -16,7 +16,7 @@ class Location extends Component {
       <h2>{location.name}</h2>
       <div className='googe-maps'>
         <iframe width='600' height='450' frameBorder='0' style={{border: 0}}
-          src={`https://www.google.com/maps/embed/v1/place?q=place_id:${location.mapPlaceID}&key=${MAPS_API_KEY}`} allowFullScreen />
+          src={`https://www.google.com/maps/embed/v1/place?q=place_id:${location.mapPlaceId}&key=${MAPS_API_KEY}`} allowFullScreen />
       </div>
       <p>{location.address}</p>
       <table>

@@ -25,7 +25,7 @@ class Contact extends Component {
       </form>
       <p>
         You can also email us at
-        <a href='mailto:tampabaywomenskrewe@gmail.com'>tampabaywomenskrewe@gmail.com</a>
+        <a href='mailto:tampabaywomenskrewe@gmail.com'>  tampabaywomenskrewe@gmail.com</a>
       </p>
     </div>
   }

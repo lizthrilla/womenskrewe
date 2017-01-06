@@ -10,5 +10,22 @@
     textarea {
       width: 100%;
     }
+
+    button {
+      height: 50px;
+      width: 100px;
+      font-size: 20px;
+      border-radius: 10px;
+      border: none;
+      font-weight: bold;
+      background-color: firebrick;
+      box-shadow: 1px 1px 1px white;
+      margin: 1em;
+
+      &:hover {
+        background-color: indianred;
+        box-shadow: 2px 2px 2px black;
+      }
+    }
   }
 }

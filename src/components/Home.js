@@ -13,6 +13,18 @@ class Home extends Component {
 
         <p>Our goal is to continue the outreach and the growth of women's rugby in Florida, all while bringing together and empowering women. We welcome anyone and everyone, regardless of experience or skill level. Help us reach our goals, come join us!</p>
       </div>
+      {/* <div className='social'>
+        <ul>
+          <li>
+            <a href='https://www.facebook.com/Tampabaywomenskrewerfc/?fref=ts'><i className='fa fa-facebook-official' />
+            </a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/tampabaywomenskrewe/'><i className='fa fa-instagram' aria-hidden='true' />
+            </a>
+          </li>
+        </ul>
+      </div> */}
     </div>
   }
 }

@@ -1,4 +1,5 @@
-h1 {
+h1,
+h2 {
   font-family: 'Trade Winds', cursive;
   color: firebrick;
   // padding-top: 1em;
@@ -9,13 +10,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Trade Winds', cursive;
-  color: firebrick;
-  padding-top: 0.5em;
-  padding-left: 0.5em;
-  margin: 0;
   font-size: 40px;
-  text-shadow: 1px 1px 2px white;
 }
 
 .about {
@@ -25,15 +20,36 @@ h2 {
 
   .info {
     display: flex;
-    align-items: left;
+    align-items: center;
     color: white;
 
     p {
       flex-direction: row;
       margin: 1em;
+      margin-bottom: 0;
       padding: 1em;
+      padding-bottom: 0;
       background-color: transparentize(black, 0.3);
       border-radius: 10px;
     }
   }
 }
+
+// .social {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 0;
+//
+//   ul {
+//     background-color: transparent;
+//     font-size: 50px;
+//     flex-direction: row;
+//
+//     li {
+//       color: firebrick;
+//       text-shadow: 1px 1px 1px white;
+//       text-align: center;
+//     }
+//   }
+// }

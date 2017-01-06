@@ -5,7 +5,8 @@ import Layout from './Layout'
 import Home from './Home' // put in next game
 import Contact from './Contact'
 import Schedule from './Schedule'
-// import Join from './Join'  put Cuscaden map here
+import Location from './Location'
+import Join from './Join'
 // import Sponsors from './Sponsors'
 
 class App extends Component {
@@ -16,6 +17,8 @@ class App extends Component {
         <Route path='/' component={Home} />
         <Route path='/Contact' component={Contact} />
         <Route path='/Schedule' component={Schedule} />
+        <Route path='/Locations/:slug' component={Location} />
+        <Route path='/Join' component={Join} />
       </Route>
     </Router>
   }

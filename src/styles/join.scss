@@ -1,0 +1,41 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  background: transparentize(black, 0.5);
+  border-radius: 10px;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+
+  button {
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: firebrick;
+    box-shadow: 1px 1px 1px white;
+    margin: 1em;
+
+    &:hover {
+      background-color: indianred;
+      box-shadow: 2px 2px 2px black;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:visited,
+      &:link,
+      &:active {
+        color: black;
+      }
+    }
+  }
+}
