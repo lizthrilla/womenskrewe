@@ -47,8 +47,12 @@ footer {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  main {
+    padding: 2px;
+  }
+
   body {
-    background-color: gray;
+    background-color: transparentize(black, 0.3);
 
     nav,
     .on,

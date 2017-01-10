@@ -6,8 +6,10 @@ class Home extends Component {
 
   render () {
     return <div className='about'>
-      <h1>Tampa Bay Krewe</h1>
-      <h1> Women's Rugby</h1>
+      <div className='tampa'>
+        <h1>Tampa Bay Krewe</h1>
+        <h1> Women's Rugby</h1>
+      </div>
       <div className='info'>
         <p> The Tampa Bay Krewe Women's RFC is a club comprised of women living in the Greater Tampa Bay Area. We are women of every shape, size, color and age. We come from all over the United States. Diverse in almost every possible way, there is one thing that bonds us together: our love and dedication to the sport of rugby. </p>
 

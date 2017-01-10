@@ -14,10 +14,11 @@
     flex: 1;
 
     form {
-      max-width: 400px;
+      max-width: 500px;
       align-items: center;
       justify-content: center;
       padding-right: 2em;
+      padding-left: 0;
 
       p label {
         display: block;
@@ -80,6 +81,24 @@
           color: black;
         }
       }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .contact {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .image {
+      visibility: hidden;
+      height: 0;
+    }
+
+    .contactButton {
+      visibility: hidden;
     }
   }
 }

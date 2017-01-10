@@ -18,6 +18,7 @@ body {
   font: $base-text-size / 1 $base-font-family;
   color: white;
   background-image: url('./ballsBW.jpg');
+  background-color: transparentize(black, 0.3);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +28,11 @@ body {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
-    background-color: gray;
+    background-color: transparentize(black, 0.3);
+    background-image: none;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
   }
 }
 
