@@ -29,9 +29,9 @@ class Layout extends Component {
         <main>
           {this.props.children}
         </main>
-        <footer>
+        {/* <footer>
           <h6>&copy; 2017 Liz Tiller for Tampa Bay Women's Krewe RFC</h6>
-        </footer>
+        </footer> */}
       </div>
     </div>
   }

@@ -5,9 +5,23 @@ h2 {
 }
 
 .practiceInfo {
-  background-color: transparentize(black, 0.3);
+  // background-color: transparentize(black, 0.3);
   padding: 5px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+
+  p {
+    flex-direction: row;
+    margin: 1em;
+    margin-bottom: 0;
+    padding: 1em;
+    padding-bottom: 1em;
+    background-color: transparentize(black, 0.3);
+    border-radius: 10px;
+  }
 }
 
 .schedule {
@@ -15,19 +29,28 @@ h2 {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  background-color: transparentize(black, 0.3);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
 }
 
-.google-maps {
-  position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
-  height: 0;
-  overflow: hidden;
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
+// .google-maps {
+//   position: relative;
+//   padding-bottom: 75%; // This is the aspect ratio
+//   height: 0;
+//   overflow: hidden;
+//
+//   iframe {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100% !important;
+//     height: 100% !important;
+//   }
+// }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .practiceInfo {
+    background-color: transparent;
   }
 }
