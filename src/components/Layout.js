@@ -16,11 +16,13 @@ class Layout extends Component {
             <li>
               <Link to='/'>Home</Link>
             </li>
-            <li>Team</li>
-            <li><Link to='/Schedule'>Schedule</Link></li>
             <li>
-              <Link to='/Contact'>Contact</Link>
+              <Link to='/Team'>Team</Link>
             </li>
+            <li><Link to='/Schedule'>Schedule</Link></li>
+            {/* <li>
+              <Link to='/Contact'>Contact</Link>
+            </li> */}
             <li><Link to='/Join'>Join</Link></li>
             <li><Link to='/Sponsors'>Sponsors</Link></li>
           </ul>

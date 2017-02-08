@@ -37,6 +37,13 @@ ul {
     &:hover {
       background-color: indianred;
     }
+
+    a,
+    a:visited,
+    a:active {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 
