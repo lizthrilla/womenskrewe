@@ -8,7 +8,7 @@ class Team extends Component {
     return <section className='teamPage'>
       <h1>Team</h1>
       <div clasName='teamPhoto'>
-        <img src='../kreweTeam.JPG' />
+        <img src='../kreweTeam2.jpg' />
       </div>
       <h1>Board</h1>
       <ul className='board'>
