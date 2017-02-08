@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 import board from '../board.js'
+// import Profile from './Profile.js'
 
 class Team extends Component {
 
   render () {
-    return <section>
+    return <section className='teamPage'>
       <h1>Team and Board</h1>
       <ul className='board'>
         {board.members.map((member, i) => {
           return <li key={i}>
             <img src={member.image} />
             <div className='imageText'>
-              <h4>{member.title}</h4>
-              <p>{member.description}</p>
+              <h5>{member.position} {member.Name}</h5>
             </div>
           </li>
         })}

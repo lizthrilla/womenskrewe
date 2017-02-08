@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
-import data from '../data.json'
+// import { Link } from 'react-router'
+// import data from '../data.json'
 
 class Schedule extends Component {
 
