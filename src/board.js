@@ -1,5 +1,10 @@
 const board = {
   members: [
+    // {
+    //   Name: '2017 Women\'s Krewe',
+    //   image: require('./kreweTeam.JPG'),
+    //   position: 'Team'
+    // },
     {
       Name: 'Alyssa Mayer',
       image: require('./board/Mayer.JPG'),

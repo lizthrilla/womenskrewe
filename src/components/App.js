@@ -8,7 +8,7 @@ import Schedule from './Schedule'
 import Location from './Location'
 import Join from './Join'
 import Sponsors from './Sponsors'
-import Team from './Team'
+import Board from './Board'
 
 class App extends Component {
 
@@ -16,7 +16,7 @@ class App extends Component {
     return <Router history={browserHistory}>
       <Route component={Layout}>
         <Route path='/' component={Home} />
-        <Route path='/Team' component={Team} />
+        <Route path='/Board' component={Board} />
         {/* <Route path='/Contact' component={Contact} /> */}
         <Route path='/Schedule' component={Schedule} />
         <Route path='/Locations/:slug' component={Location} />

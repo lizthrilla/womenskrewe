@@ -1,8 +1,17 @@
 .teamPage {
   height: 100vh;
   width: 80vw;
-  margin: 0;
-  padding: 0;
+
+  .teamPhoto {
+    height: 300px;
+    width: 400px;
+    align-content: center;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
 
   .board {
     background-color: transparent;
@@ -12,18 +21,20 @@
     padding: 0;
 
     li {
-      height: 200px;
-      width: 250px;
+      height: 225px;
+      width: 275px;
       position: relative;
       color: transparent;
+      border-radius: 10px;
 
       img {
         height: 100%;
         width: 100%;
+        border-radius: 10px;
       }
 
       .imageText {
-        width: 250px;
+        width: 275px;
         text-align: center;
         position: absolute;
         bottom: 5px;
