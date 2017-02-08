@@ -6,7 +6,11 @@ class Team extends Component {
 
   render () {
     return <section className='teamPage'>
-      <h1>Team and Board</h1>
+      <h1>Team</h1>
+      <div clasName='teamPhoto'>
+        <img src='../kreweTeam.JPG' />
+      </div>
+      <h1>Board</h1>
       <ul className='board'>
         {board.members.map((member, i) => {
           return <li key={i}>
