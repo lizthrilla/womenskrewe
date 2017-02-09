@@ -10,7 +10,7 @@ class Schedule extends Component {
       <h2>Schedule</h2>
       <div className='schedulePage'>
         <div className='bigJess'>
-          <img src='./src/styles/bigJess.jpg' />
+          <img src={require('../styles/bigJess.jpg')} />
         </div>
         <div className='scheduleText'>
           <div className='practiceInfo'>
