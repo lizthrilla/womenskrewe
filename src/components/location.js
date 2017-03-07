@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import data from '../data.json'
 
 // Get my own KEY
-const MAPS_API_KEY = 'AIzaSyAkeozOoNOVZFX-uG2Wgv4r0a5-_Q7i8y0'
+const MAPS_API_KEY = 'AIzaSyCWHSkQlhdezrqy5_-K-AmDENwzvytp_mU'
 
 class Location extends Component {
   static propTypes = {
